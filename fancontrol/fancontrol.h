@@ -213,7 +213,7 @@ class FANCONTROL
 		int ReadEcRaw(FCSTATE *pfcstate);
 		int HandleData();
 		int SmartControl();
-		int SetFan(const char *source, int level, BOOL final= false);
+		int SetFan(const char *source, int level, BOOL final= false, BOOL log= true);
 		int SetHdw(const char *source, int hdwctrl, int HdwOffset, int AnyWayBit);
 
 
