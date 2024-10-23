@@ -1,28 +1,17 @@
-# TPFanControl for dual-fan ThinkPads (P1, X1 Extreme..)
+# TPFanControl for dual-fan ThinkPads
 
 Confirmed to be working on:
-- ThinkPad P1 Gen 3 with Nvidia GPU
-- ThinkPad X1 Extreme Gen 3 (@dharmatech)
-- ThinkPad P15 Gen 2 (@stavoxnetworks)
-- ThinkPad P14s Gen 5 intel (@ptmolter)
-
-Please open an issue to have me add your model to the confirmed list. Thank you!
+- ThinkPad P52
+- should work on other dual fan Thinkpads
 
 ## About
 
-This is a fork of https://github.com/byrnes/TPFanControl.
+This is a fork of https://github.com/nikolasgd/TPFanControl-dual-fan.
 
-Features / fixes:
+Features / fixes in this release:
 
-- **On my machine, this completly fixes the issue that the fan on the right side was not always stopped**
-- Speed of both fans (left and right) is now read from the embedded controller and displayed in RPM
-- Sensor name for GPU and some presets are set correctly for modern machines
-- Minor cosmetic changes
-
-Some files were removed from the repository that should not be under version control. Other than that, no code reformatting or refactoring was done for the utmost transparency of changes to the original version of TPFanControl.
-
-## Future development
-It is possible but not yet implemented to control both fans separatly. This way you could have only the CPU fan running as long a the Nvidia is not used. Possible benefit would be to reduce fan noise on each level by 50% while using the Intel GPU.
+- no or very rarely reported errors from EC (Thinkpad P52)
+- 100% fix of any fan persist active after achiving Level 0 (where fans should be stopped)
 
 ## Installation
 
