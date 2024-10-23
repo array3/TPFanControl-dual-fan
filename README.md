@@ -1,7 +1,7 @@
 # TPFanControl for dual-fan ThinkPads
 
 Confirmed to be working on:
-- ThinkPad P52
+- ThinkPad P52 (Windows 11)
 - should work on other dual fan Thinkpads
 
 ## About
