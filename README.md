@@ -11,7 +11,7 @@ This is a fork of https://github.com/nikolasgd/TPFanControl-dual-fan.
 Features / fixes in this release:
 
 - no or very rarely reported errors from EC (Thinkpad P52)
-- 100% fix of any fan persist active after achiving Level 0 (where fans should be stopped)
+- 100% fix of issue where any fan persist active after achiving Level 0 (fans should be stopped)
 
 ## Installation
 
