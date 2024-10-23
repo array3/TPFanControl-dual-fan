@@ -15,7 +15,7 @@ Features / fixes in this release:
 
 ## Installation
 
-Either install [tvicport](https://www.entechtaiwan.com/dev/port/index.shtm) manually or install the original version of TPFanControl found [here](https://sourceforge.net/projects/tp4xfancontrol/) and run the dual-fan version instead of the original version:
+Either install [tvicport](https://www.entechtaiwan.com/dev/port/index.shtm) manually or install the original version of TPFanControl found [here](https://thinkwiki.de/TPFanControl) and run the dual-fan version instead of the original version:
 
 After you installed the original version of TPFanControl, replace the TPFanControl.exe (and possibly TPFanControl.ini) with the files from the release package or the corresponding files in the `fancontrol/Release` directory.
 
